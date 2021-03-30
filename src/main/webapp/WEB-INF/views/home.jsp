@@ -14,7 +14,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="SHORTCUT ICON" type="image/x-icon" sizes="16x16" href="resources/image/title.ico"/>
-		<!-- <link rel="icon" type="image/x-icon" sizes="16x16" href="/resources/images/title.ico"/> -->
 		<title>YProJ</title>
 	</head>
 	<body class="is-preload">
@@ -31,16 +30,17 @@
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="/YProJ">Home</a></li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="left-sidebar">Left Sidebar</a></li>
 								<li><a href="right-sidebar.html">Right Sidebar</a></li>
 								<li><a href="two-sidebar.html">Two Sidebar</a></li>
 								<li><a href="no-sidebar.html">No Sidebar</a></li>
 								<li>
-									<a href="#">Dropdown</a>
+									<a href="#">Member</a>
 									<ul>
-										<li><a href="#">Lorem dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam sed tempus</a></li>
+										<li><a href="loginPage">log In</a></li>
+										<li><a href="#">Sign Up</a></li>
+										<li><a href="#">Id Find</a></li>
+										<li><a href="#">Password Find</a></li>
 										<li>
 											<a href="#">Submenu</a>
 											<ul>
@@ -61,7 +61,7 @@
 
 			<!-- Banner -->
 				<section id="banner">			
-					<div class="slideshow-container">	
+					<div class="slideshow-container" style = "text-decoration: none;">	
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 6</div>
 							<img src="resources/image/Slider/eclipse.png" alt="1" width="100%" height = "100%">
@@ -156,7 +156,7 @@
 								<div class="box post">
 									<a href="#" class="image left"><img src="resources/image/pic02.jpg" alt="" /></a>
 									<div class="inner">
-										<h3>The First Thing</h3>
+										<h3>Post!!!!!!!!!!!!!</h3>
 										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
 									</div>
 								</div>

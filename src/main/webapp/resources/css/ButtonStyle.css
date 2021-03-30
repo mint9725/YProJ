@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+	.LoginFindSignUpButtonStyle{
+		cursor:pointer;
+		background-color: none;
+		border:none;
+	}
+	.LoginFindSignUpButtonStyle:hover{
+		background-color: #50c8fc;
+	}
+	
