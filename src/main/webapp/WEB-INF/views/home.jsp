@@ -60,43 +60,52 @@
 				</div>
 
 			<!-- Banner -->
-				<section id="banner">
-					<div id="visual">     
-						<div class="on">
-							<img src="resources/image/Slider/eclipse.png" alt="1" width="100%" height="100%">
+				<section id="banner">			
+					<div class="slideshow-container">	
+						<div class="mySlides fade">
+							<div class="numbertext">1 / 6</div>
+							<img src="resources/image/Slider/eclipse.png" alt="1" width="100%" height = "100%">
+						</div>
+					
+						<div class="mySlides fade">
+							<div class="numbertext">2 / 6</div>
+							<img src="resources/image/Slider/java.png" alt="2" width="100%" height = "100%">
 						</div>
 						
-             			<div>
-             				<img src="resources/image/Slider/java.png" alt="2" width="100%" height="100%">
-             			</div>
-             			
-						<div>
-							<img src="resources/image/Slider/html.png" alt="3" width="100%" height="100%">
+						<div class="mySlides fade">
+							<div class="numbertext">3 / 6</div>
+							<img src="resources/image/Slider/html.png" alt="3" width="100%" height = "100%">
 						</div>
 						
-						<div>
-							<img src="resources/image/Slider/JSP.png" alt="4" width="100%" height="100%">
+						<div class="mySlides fade">
+							<div class="numbertext">4 / 6</div>
+							<img src="resources/image/Slider/JSP.png" alt="4" width="100%" height = "100%">
 						</div>
 						
-						<div>
-							<img src="resources/image/Slider/JS.png" alt="5" width="100%" height="100%">
+						<div class="mySlides fade">
+							<div class="numbertext">5 / 6</div>
+							<img src="resources/image/Slider/JS.png" alt="5" width="100%" height = "100%">
 						</div>
-						  
-						<div>
-							<img src="resources/image/Slider/css.png" alt="6" width="100%" height="100%">
-						</div>   
-						<section id="control">
-							<a class="on" href="#none"></a>
-							<a href="#none"></a>
-							<a href="#none"></a>
-							<a href="#none"></a>
-							<a href="#none"></a>
-							<a href="#none"></a>
-						</section>
+						
+						<div class="mySlides fade">
+							<div class="numbertext">6 / 6</div>
+							<img src="resources/image/Slider/css.png" alt="6" width="100%" height = "100%">
+						</div>
+						
+						<!-- Next and previous buttons -->
+						<a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+						<a class="next" onclick="moveSlides(1)">&#10095;</a>
 					</div>
 					<header>
-						<h2>배너: <em>배너 <a href="http://html5up.net">배너</a></em></h2>
-						<a href="#" class="button">Learn More</a>
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+							<span class="dot" onclick="currentSlide(0)"></span>
+							<span class="dot" onclick="currentSlide(1)"></span>
+							<span class="dot" onclick="currentSlide(2)"></span>
+							<span class="dot" onclick="currentSlide(3)"></span>
+							<span class="dot" onclick="currentSlide(4)"></span>
+							<span class="dot" onclick="currentSlide(5)"></span>
+						</div>
 					</header>
 				</section>
 
