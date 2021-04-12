@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.spMvc.DAO.mapper.YMapper">
+	<resultMap type="com.spMvc.YVO.YVO" id="YYY">
+		<result property="yId" column="yId"/>
+		<result property="yPwd" column="yPwd"/>
+		<result property="yNickName" column="yNickName"/>
+		<result property="yName" column="yName"/>
+		<result property="yBirth" column="yBirth"/>
+		<result property="yGender" column="yGender"/>
+		<result property="yEmail" column="yEmail"/>
+		<result property="yTel" column="yTel"/>
+		<result property="yPostCode" column="yPostCode"/>
+		<result property="yAddress1" column="yAddress1"/>
+		<result property="yAddress2" column="yAddress2"/>
+		<result property="role_name" column="role_name"/>
+	</resultMap>
+	<insert id="signUP">
+		INSERT INTO YproJ_member (yId,yPwd,yNickName,yName,yBirth,yGender,yEmail,yTel,yPostCode,yAddress1,yAddress2) 
+		VALUES(#{yId}, #{yPwd}, #{yNickName}, #{yName}, #{yBirth}, #{yGender}, #{yEmail}, #{yTel}, #{yPostCode}, #{yAddress1}, #{yAddress2})
+	</insert>
+	
+	<insert id="signUPRole">
+		INSERT INTO Yuser_roles (yId,role_name)
+		VALUES(#{yId}, #{role_name})
+	</insert>
+	
+	<select id="yIdCheck" parameterType="String" resultType="int">
+		SELECT COUNT(*) FROM YproJ_member WHERE yId=#{yId}
+	</select>
+	
+</mapper>

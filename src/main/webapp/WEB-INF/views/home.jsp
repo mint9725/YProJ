@@ -23,8 +23,8 @@
 				<div id="header">
 
 					<!-- Logo -->
-						<a href="/YProJ" id="logo"><label style = "font-size:25px; text-decoration: none; color: black; cursor: pointer;">Y<em style = "font-weight: 300;">Pro</em>J</label></a>
-						<label>(YongDeuK ProJect)</label>
+						<a href="/YProJ" id="logo"><label style = "font-size:25px; text-decoration: none; color: black; cursor: pointer;">Y<em style = "font-weight: 300;">Pro</em>J</label></a><br/>
+						<label>(YongDeuK ProJect)</label><br/><br/>
 
 					<!-- Nav -->
 						<nav id="nav">
@@ -32,23 +32,18 @@
 								<li class="current"><a href="/YProJ">Home</a></li>
 								<li><a href="left-sidebar">Left Sidebar</a></li>
 								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="two-sidebar.html">Two Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li><a href="#">쿠폰 포인트</a></li>
+								<li><a href="#">건의 게시판</a></li>
 								<li>
-									<a href="#">Member</a>
+									<a href="#">마이와이제이</a>
 									<ul>
-										<li><a href="loginPage">log In</a></li>
-										<li><a href="#">Sign Up</a></li>
-										<li><a href="#">Id Find</a></li>
-										<li><a href="#">Password Find</a></li>
+										<li><a href="loginPage">로그인</a></li>
+										<li><a href="SignUpPage">회원가입</a></li>
 										<li>
-											<a href="#">Submenu</a>
+											<a href="#">찾기</a>
 											<ul>
-												<li><a href="#">Lorem dolor</a></li>
-												<li><a href="#">Phasellus magna</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li>
+												<li><a href="#">아이디 찾기</a></li>
+												<li><a href="#">비밀번호 찾기</a></li>
 											</ul>
 										</li>
 										<li><a href="#">Veroeros feugiat</a></li>
@@ -64,7 +59,7 @@
 					<div class="slideshow-container" style = "text-decoration: none;">	
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 6</div>
-							<img src="resources/image/Slider/eclipse.png" alt="1" width="100%" height = "100%">
+							<a href="loginPage"><img src="resources/image/Slider/eclipse.png" alt="1" width="100%" height = "100%"></a>
 						</div>
 					
 						<div class="mySlides fade">
@@ -198,7 +193,7 @@
 				<section id="cta" class="wrapper style3">
 					<div class="container">
 						<header>
-							<h2>CTA 랍니다</h2>
+							<h2>${pageContext.request.userPrincipal.name}님</h2>
 							<a href="#" class="button">Insert Coin</a>
 						</header>
 					</div>

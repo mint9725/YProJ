@@ -1,11 +1,40 @@
 @charset "UTF-8";
 
-	.LoginFindSignUpButtonStyle{
-		cursor:pointer;
-		background-color: none;
-		border:none;
+	.LoginButtonStyle{
+		cursor: pointer;
+		color: white;
+		background-color: #323232;
+		font-size:20px;
+		width: 70%;
+		padding: 3px;
+		border-radius: 10px;
+		border: none;
+		
 	}
-	.LoginFindSignUpButtonStyle:hover{
-		background-color: #50c8fc;
+	
+	.CheckButtonStyle{
+		width: 15%;
+		height: 100%;
+		background-color: white;
+		padding: 8px;
+		border: 1px solid #ccc;
+		font-size:17px;
+		border-radius: 5px;
+		color: gray;
+		cursor: pointer;
+	}
+	
+	.SignUpOkButtonStyle{
+		cursor: pointer;
+		color: white;
+		background-color: #323232;
+		font-size:20px;
+		width: 100%;
+		padding: 8px;
+		border-radius: 10px;
+		border: none;
+	}
+	.SignUpOkButtonStyle:hover{
+		cursor: pointer;
 	}
 	

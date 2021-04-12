@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+	.loginAStyle{
+		color:black;
+		font-size: 13px;
+		text-decoration: none;		
+	}
+	.loginAStyle:hover{
+		color:black;
+		text-decoration: underline;		
+	}

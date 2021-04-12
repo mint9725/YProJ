@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+	.GenderInput input[type="radio"][name="yGender"]{
+		display:none;
+	}
+
+	.GenderInput input[type="radio"][name="yGender"] + span{
+		display:inline-block;
+		background:none;
+		border:1px solid #ccc;
+		border-radius: 5px;  
+		padding:0px 10px;
+		width: 49%;
+		text-align:center;
+		padding: 10px;
+		cursor:pointer;
+	}
+
+	.GenderInput input[type="radio"][name="yGender"]:checked + span{
+		border:1px solid #e65ae6;
+		background:none;
+		color: #e65ae6;
+	}

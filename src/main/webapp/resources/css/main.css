@@ -97,7 +97,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-	body, input, select, textarea {
+	body, input, textarea {
 		color: #474747;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		color: #37c0fb;
-		text-decoration: none !important;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -2034,13 +2034,13 @@ input, select, textarea {
 		line-height: 1em;
 	}
 
-	label {
-		display: block;
-		color: inherit;
-		font-weight: 600;
-		line-height: 1.75em;
-		margin-bottom: 0.5em;
-	}
+/* 	label { */
+/* 		display: block; */
+/* 		color: inherit; */
+/* 		font-weight: 600; */
+/* 		line-height: 1.75em; */
+/* 		margin-bottom: 0.5em; */
+/* 	} */
 
 	::-webkit-input-placeholder {
 		color: #999;
@@ -2397,9 +2397,7 @@ input, select, textarea {
 
 /* Button 버튼*/
 
-	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2428,9 +2426,7 @@ input, select, textarea {
 		letter-spacing: -0.025em;
 	}
 
-		input[type="submit"]:hover,
 		input[type="reset"]:hover,
-		input[type="button"]:hover,
 		.button:hover {
 			background-color: #50c8fc;
 			color: #fff !important;
@@ -2439,7 +2435,7 @@ input, select, textarea {
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
-		.button:active {
+		button:active {
 			background-color: #1eb8fb;
 			color: #fff;
 		}
